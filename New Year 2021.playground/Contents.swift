@@ -10,5 +10,4 @@ private func randomNumberGenerator(range: Int) -> Int {
 
 print(newYearMessage)
 print("Years remaining in your life: \(randomNumberGenerator(range: 100))")
-
-
+print("Global pandemics you will live through: \(randomNumberGenerator(range: 10))")
