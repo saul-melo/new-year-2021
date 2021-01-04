@@ -9,5 +9,6 @@ private func randomNumberGenerator(range: Int) -> Int {
 }
 
 print(newYearMessage)
-print("Years remaining in your life: \(randomNumberGenerator(range: 100))")
-print("Global pandemics you will live through: \(randomNumberGenerator(range: 10))")
+print("Remaining years to live: \(randomNumberGenerator(range: 101))")
+print("Houses owned at time of death: \(randomNumberGenerator(range: 4))")
+print("Lifetime trips to Mars: \(randomNumberGenerator(range: 4))")
