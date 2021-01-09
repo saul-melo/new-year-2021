@@ -17,3 +17,4 @@ print("U.S. states never visited (excluding travel stops): \(randomNumberGenerat
 print("Personal tragedy count: \(randomNumberGenerator(range: 4))")
 print("Super Bowls attended: \(randomNumberGenerator(range: 5))")
 print("Alien abductions: \(randomNumberGenerator(range: 2))")
+print("Mountains climbed: \(randomNumberGenerator(range: 6))")
