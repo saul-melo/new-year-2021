@@ -22,3 +22,4 @@ print("Continents never visited (exluding travel stops): \(randomNumberGenerator
 print("Gambling earnings: \(randomNumberGenerator(range: 5_001))")
 print("Charity contribution total: \(randomNumberGenerator(range: 10_001))")
 print("Languages learned as adult: \(randomNumberGenerator(range: 3))")
+print("Antarctica trips: \(randomNumberGenerator(range: 2))")
