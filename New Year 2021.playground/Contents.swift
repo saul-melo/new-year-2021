@@ -31,3 +31,5 @@ print("Professional sport franchises owned: \(randomNumberGenerator(range: 2))")
 print("Land acres owned: \(randomNumberGenerator(range: 21))")
 print("Reunions attended: \(randomNumberGenerator(range: 6))")
 print("Musical instruments learned: \(randomNumberGenerator(range: 3))")
+print("Animals succesffully hunted: \(randomNumberGenerator(range: 11))")
+
