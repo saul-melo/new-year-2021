@@ -32,4 +32,5 @@ print("Land acres owned: \(randomNumberGenerator(range: 21))")
 print("Reunions attended: \(randomNumberGenerator(range: 6))")
 print("Musical instruments learned: \(randomNumberGenerator(range: 3))")
 print("Animals succesffully hunted: \(randomNumberGenerator(range: 11))")
+print("Body parts replaced: \(randomNumberGenerator(range: 3))")
 
