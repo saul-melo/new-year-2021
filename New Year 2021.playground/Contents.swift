@@ -8,9 +8,12 @@ private func randomNumberGenerator(range: Int) -> Int {
     return random
 }
 
+private func randomNumberGenerator2(min: Int, max: Int) -> Int {
+    return Int.random(in: min..<max+1)
+}
+
 print(newYearMessage)
 print()
-print("Remaining years: \(randomNumberGenerator(range: 101))")
 print("Publically traded companies founded: \(randomNumberGenerator(range: 3))")
 print("Mars trips: \(randomNumberGenerator(range: 4))")
 print("U.S. states never visited (excluding travel stops): \(randomNumberGenerator(range: 31))")
@@ -33,4 +36,6 @@ print("Reunions attended: \(randomNumberGenerator(range: 6))")
 print("Musical instruments learned: \(randomNumberGenerator(range: 3))")
 print("Animals succesffully hunted: \(randomNumberGenerator(range: 11))")
 print("Body parts replaced: \(randomNumberGenerator(range: 3))")
+
+print("Jobs held: \(randomNumberGenerator2(min: 14, max: 25))")
 
