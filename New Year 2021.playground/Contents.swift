@@ -1,7 +1,7 @@
 import UIKit
 import GameKit
 
-var newYearMessage = "Happy New Year 2021"
+var newYearMessage = "New Year 2021"
 
 private func randomNumberGenerator(range: Int) -> Int {
     let random = GKRandomSource.sharedRandom().nextInt(upperBound: range)
@@ -36,6 +36,6 @@ print("Reunions attended: \(randomNumberGenerator(range: 6))")
 print("Musical instruments learned: \(randomNumberGenerator(range: 3))")
 print("Animals succesffully hunted: \(randomNumberGenerator(range: 11))")
 print("Body parts replaced: \(randomNumberGenerator(range: 3))")
-
 print("Jobs held: \(randomNumberGenerator2(min: 14, max: 25))")
+print("Patents held: \(randomNumberGenerator(range: 6))")
 
