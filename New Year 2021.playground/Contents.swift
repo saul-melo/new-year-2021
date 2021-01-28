@@ -38,4 +38,5 @@ print("Animals succesffully hunted: \(randomNumberGenerator(range: 11))")
 print("Body parts replaced: \(randomNumberGenerator(range: 3))")
 print("Jobs held: \(randomNumberGenerator2(min: 14, max: 25))")
 print("Patents held: \(randomNumberGenerator(range: 6))")
+print("Marathons run: \(randomNumberGenerator(range: 10))")
 
