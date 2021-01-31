@@ -41,5 +41,6 @@ print("Patents held: \(randomNumberGenerator(range: 6))")
 print("Marathons run: \(randomNumberGenerator(range: 4))")
 print("Words coined: \(randomNumberGenerator(range: 2))")
 print("Earthquakes experienced: \(randomNumberGenerator(range: 4))")
-print("Furniture items assembled: \(randomNumberGenerator2(min: 10, max: 40))")
+print("Furniture units assembled: \(randomNumberGenerator2(min: 10, max: 40))")
+print("Campfires started: \(randomNumberGenerator(range: 51))")
 
