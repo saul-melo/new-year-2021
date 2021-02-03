@@ -8,12 +8,18 @@ class MyViewController : UIViewController {
         let view = UIView()
         view.backgroundColor = .white
 
-        let label = UILabel()
-        label.frame = CGRect(x: 120, y: 310, width: 200, height: 20)
-        label.text = "remotely working"
-        label.textColor = .black
+        let label_1 = UILabel()
+        label_1.frame = CGRect(x: 120, y: 310, width: 200, height: 20)
+        label_1.text = "remotely working"
+        label_1.textColor = .black
         
-        view.addSubview(label)
+        let label_2 = UILabel()
+        label_2.frame = CGRect(x: 120, y: 330, width: 200, height: 20)
+        label_2.text = "infinitely content"
+        label_2.textColor = .black
+        
+        view.addSubview(label_1)
+        view.addSubview(label_2)
         self.view = view
     }
 }
