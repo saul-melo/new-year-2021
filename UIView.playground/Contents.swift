@@ -16,23 +16,30 @@ class MyViewController : UIViewController {
         let label_2 = UILabel()
         label_2.frame = CGRect(x: 20, y: 40, width: 200, height: 20)
         label_2.text = "a toyota is a toyota"
-        label_2.textColor = .blue
+        label_2.backgroundColor = .black
+        label_2.textColor = .white
         
         let label_3 = UILabel()
         label_3.frame = CGRect(x: 20, y: 60, width: 200, height: 20)
         label_3.text = "racecar"
-        label_3.backgroundColor = .black
-        label_3.textColor = .yellow
+        label_3.textColor = .red
         
         let label_4 = UILabel()
         label_4.frame = CGRect(x: 20, y: 80, width: 200, height: 20)
         label_4.text = "a nut for a jar of tuna"
-        label_4.textColor = .red
+        label_4.textColor = .blue
+        
+        let label_5 = UILabel()
+        label_5.frame = CGRect(x: 20, y: 100, width: 200, height: 20)
+        label_5.text = "acrobats stab orca"
+        label_5.backgroundColor = .black
+        label_5.textColor = .yellow
         
         view.addSubview(label_1)
         view.addSubview(label_2)
         view.addSubview(label_3)
         view.addSubview(label_4)
+        view.addSubview(label_5)
         self.view = view
     }
 }
