@@ -35,11 +35,18 @@ class MyViewController : UIViewController {
         label_5.backgroundColor = .black
         label_5.textColor = .yellow
         
+        let label_6 = UILabel()
+        label_6.frame = CGRect(x: 20, y: 120, width: 300, height: 20)
+        label_6.text = "are we not drawn onward to new era"
+        label_6.backgroundColor = .black
+        label_6.textColor = .green
+        
         view.addSubview(label_1)
         view.addSubview(label_2)
         view.addSubview(label_3)
         view.addSubview(label_4)
         view.addSubview(label_5)
+        view.addSubview(label_6)
         self.view = view
     }
 }
