@@ -41,12 +41,18 @@ class MyViewController : UIViewController {
         label_6.backgroundColor = .black
         label_6.textColor = .green
         
+        let label_7 = UILabel()
+        label_7.frame = CGRect(x: 20, y: 140, width: 300, height: 20)
+        label_7.text = "draw nine men inward"
+        label_7.textColor = .orange
+        
         view.addSubview(label_1)
         view.addSubview(label_2)
         view.addSubview(label_3)
         view.addSubview(label_4)
         view.addSubview(label_5)
         view.addSubview(label_6)
+        view.addSubview(label_7)
         self.view = view
     }
 }
