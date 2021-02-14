@@ -72,6 +72,11 @@ class MyViewController : UIViewController {
         label_12.text = "late metal"
         label_12.textColor = .magenta
         
+        let label_13 = UILabel()
+        label_13.frame = CGRect(x: 20, y: 260, width: 300, height: 20)
+        label_13.text = "lonely tylenol"
+        label_13.textColor = .systemIndigo
+        
         view.addSubview(label_1)
         view.addSubview(label_2)
         view.addSubview(label_3)
@@ -84,6 +89,7 @@ class MyViewController : UIViewController {
         view.addSubview(label_10)
         view.addSubview(label_11)
         view.addSubview(label_12)
+        view.addSubview(label_13)
         self.view = view
     }
 }
