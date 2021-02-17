@@ -87,6 +87,12 @@ class MyViewController : UIViewController {
         label_15.text = "name not one man"
         label_15.textColor = .black
         
+        let label_16 = UILabel()
+        label_16.frame = CGRect(x: 20, y: 320, width: 300, height: 20)
+        label_16.text = "never odd or even"
+        label_16.backgroundColor = .black
+        label_16.textColor = .white
+        
         view.addSubview(label_1)
         view.addSubview(label_2)
         view.addSubview(label_3)
@@ -102,6 +108,7 @@ class MyViewController : UIViewController {
         view.addSubview(label_13)
         view.addSubview(label_14)
         view.addSubview(label_15)
+        view.addSubview(label_16)
         self.view = view
     }
 }
