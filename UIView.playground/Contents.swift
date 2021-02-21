@@ -109,6 +109,12 @@ class MyViewController : UIViewController {
         label_19.backgroundColor = .black
         label_19.textColor = .yellow
         
+        let label_20 = UILabel()
+        label_20.frame = CGRect(x: 20, y: 400, width: 300, height: 20)
+        label_20.text = "pool loop"
+        label_20.backgroundColor = .black
+        label_20.textColor = .green
+        
         view.addSubview(label_1)
         view.addSubview(label_2)
         view.addSubview(label_3)
@@ -128,6 +134,7 @@ class MyViewController : UIViewController {
         view.addSubview(label_17)
         view.addSubview(label_18)
         view.addSubview(label_19)
+        view.addSubview(label_20)
         self.view = view
     }
 }
