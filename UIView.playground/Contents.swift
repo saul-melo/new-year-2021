@@ -115,6 +115,11 @@ class MyViewController : UIViewController {
         label_20.backgroundColor = .black
         label_20.textColor = .green
         
+        let label_21 = UILabel()
+        label_21.frame = CGRect(x: 20, y: 420, width: 300, height: 20)
+        label_21.text = "pull up if i pull up"
+        label_21.textColor = .orange
+        
         view.addSubview(label_1)
         view.addSubview(label_2)
         view.addSubview(label_3)
@@ -135,6 +140,7 @@ class MyViewController : UIViewController {
         view.addSubview(label_18)
         view.addSubview(label_19)
         view.addSubview(label_20)
+        view.addSubview(label_21)
         self.view = view
     }
 }
