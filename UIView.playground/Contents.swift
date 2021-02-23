@@ -10,7 +10,7 @@ class MyViewController : UIViewController {
 
         let label_1 = UILabel()
         label_1.frame = CGRect(x: 20, y: 20, width: 200, height: 20)
-        label_1.text = "never odd or even"
+        label_1.text = "radar"
         label_1.textColor = .black
         
         let label_2 = UILabel()
@@ -120,6 +120,11 @@ class MyViewController : UIViewController {
         label_21.text = "pull up if i pull up"
         label_21.textColor = .orange
         
+        let label_22 = UILabel()
+        label_22.frame = CGRect(x: 20, y: 440, width: 300, height: 20)
+        label_22.text = "repel a leper"
+        label_22.textColor = .purple
+        
         view.addSubview(label_1)
         view.addSubview(label_2)
         view.addSubview(label_3)
@@ -141,6 +146,7 @@ class MyViewController : UIViewController {
         view.addSubview(label_19)
         view.addSubview(label_20)
         view.addSubview(label_21)
+        view.addSubview(label_22)
         self.view = view
     }
 }
