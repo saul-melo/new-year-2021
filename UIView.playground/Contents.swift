@@ -131,6 +131,11 @@ class MyViewController : UIViewController {
         label_23.backgroundColor = .black
         label_23.textColor = .cyan
         
+        let label_24 = UILabel()
+        label_24.frame = CGRect(x: 20, y: 480, width: 300, height: 20)
+        label_24.text = "rotator"
+        label_24.textColor = .brown
+        
         view.addSubview(label_1)
         view.addSubview(label_2)
         view.addSubview(label_3)
@@ -154,6 +159,7 @@ class MyViewController : UIViewController {
         view.addSubview(label_21)
         view.addSubview(label_22)
         view.addSubview(label_23)
+        view.addSubview(label_24)
         self.view = view
     }
 }
