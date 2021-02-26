@@ -136,6 +136,11 @@ class MyViewController : UIViewController {
         label_24.text = "rotator"
         label_24.textColor = .brown
         
+        let label_25 = UILabel()
+        label_25.frame = CGRect(x: 20, y: 500, width: 300, height: 20)
+        label_25.text = "smart rams"
+        label_25.textColor = .gray
+        
         view.addSubview(label_1)
         view.addSubview(label_2)
         view.addSubview(label_3)
@@ -160,6 +165,7 @@ class MyViewController : UIViewController {
         view.addSubview(label_22)
         view.addSubview(label_23)
         view.addSubview(label_24)
+        view.addSubview(label_25)
         self.view = view
     }
 }
